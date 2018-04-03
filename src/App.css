@@ -12,6 +12,21 @@
   height: 80px;
 }
 
+.jonathan{
+  height: 30vh;
+}
+.icon{
+height:5vh;
+}
+
+.tech{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:50vw;
+  padding-top: 2vh;
+
+}
 
 .links{
   width: 40%;
@@ -19,7 +34,7 @@
  justify-content: space-around;
  align-items: flex-end;
  flex-wrap: wrap;
- height: 10vh;
+ height: 5vh;
   
 }
 
@@ -28,17 +43,37 @@
   text-decoration: none;
 }
 
+.links a:hover{
+  color:black;
+}
+
 @media(max-width:600px){
 .links{
   display: flex;
   flex-wrap: wrap;
+  margin-top:3vh;
+  width:90%;
+}
+.tech{
+  margin-top:3vh;
+  display: flex;
+  flex-wrap: wrap;
+  width:90%;
   
-  width:100%;
+}
+
+.tech img{
+  height:12vh;
+  margin:2px;
 }
 }
+
+
 
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
