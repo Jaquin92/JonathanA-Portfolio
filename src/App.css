@@ -1,0 +1,44 @@
+.App {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 85vh;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+.links{
+  width: 40%;
+  display: flex;
+ justify-content: space-around;
+ align-items: flex-end;
+ flex-wrap: wrap;
+ height: 10vh;
+  
+}
+
+.links a{
+  color: #25DBFF;
+  text-decoration: none;
+}
+
+@media(max-width:600px){
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  
+  width:100%;
+}
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
