@@ -14,12 +14,24 @@ class App extends Component {
 
         <b>Software Engineer</b>
         <div className="links" >
-          <a href="http://sayless.fun" target="blank" >Sayless</a>
-          <a href="http://167.99.54.86:3030/" target="blank" >Weather</a>
-          <a href="http://github.com/jaquin92" target="blank" >Github</a>
-          <a href="http://linkedin.com/in/jonathan-aquino " target="blank" >LinkedIn</a>
-          <a href="mailto:jaquin92@yahoo.com" >E-mail</a>
+          <h3>Projects</h3>
+          <div className="projects" >
+            <a href="http://sayless.fun" target="blank" >Sayless</a>
+            <a href="http://167.99.54.86:1738/" target="blank" >Poetry Wall</a>
+            <a href="http://167.99.54.86:3030/" target="blank" >Weather</a>
+            <a href="http://167.99.54.86:1534/" target="blank" >BiggerPic</a>
+
+          </div>
+          <h3>Contact</h3>
+          <div className="contact" >
+            <a href="http://github.com/jaquin92" target="blank" >Github</a>
+            <a href="http://linkedin.com/in/jonathan-aquino " target="blank" >LinkedIn</a>
+            <a href="http://twitter.com/jonathan3k" target="blank" >Twitter</a>
+            <a href="mailto:jaquin92@yahoo.com" >E-mail</a>
+          </div>
         </div>
+
+        <h3>Skills</h3>
         <div className="tech" >
           <img className="icon" src={require("./images/react.png")} alt="" />
           <img className="icon" src={require("./images/js.png")} alt="" />
