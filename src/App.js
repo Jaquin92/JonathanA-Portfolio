@@ -17,9 +17,9 @@ class App extends Component {
           <h3>Projects</h3>
           <div className="projects" >
             <a href="http://sayless.fun" target="blank" >Sayless</a>
-            <a href="http://167.99.54.86:1738/" target="blank" >Poetry Wall</a>
-            <a href="http://167.99.54.86:3030/" target="blank" >Weather</a>
-            <a href="http://167.99.54.86:1534/" target="blank" >BiggerPic</a>
+            <a href="http://poetrywall.fun" target="blank" >Poetry Wall</a>
+            <a href="http://whatsupweather.fun" target="blank" >Weather</a>
+            <a href="http://biggerpic.fun" target="blank" >BiggerPic</a>
 
           </div>
           <h3>Contact</h3>
