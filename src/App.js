@@ -21,7 +21,7 @@ class App extends Component {
             <a href="http://whatsupweather.fun" target="blank" >Weather</a>
             <a href="http://biggerpic.fun" target="blank" >BiggerPic</a>
 
-            <a href="http://159.89.50.175:3005/#/">Readium</a>
+            <a href="http://159.89.50.175:3005/#/" target="blank" >Readium</a>
 
           </div>
           <h3>Contact</h3>
