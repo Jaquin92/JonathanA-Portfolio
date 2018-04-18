@@ -21,6 +21,8 @@ class App extends Component {
             <a href="http://whatsupweather.fun" target="blank" >Weather</a>
             <a href="http://biggerpic.fun" target="blank" >BiggerPic</a>
 
+            <a href="">Readium</a>
+
           </div>
           <h3>Contact</h3>
           <div className="contact" >
@@ -39,7 +41,7 @@ class App extends Component {
           <img className="icon" src={require("./images/postgreSQL.png")} alt="" />
           <img className="icon" src={require("./images/html.png")} alt="" />
           <img className="icon" src={require("./images/css.png")} alt="" />
-          <img className="icon" src={require("./images/bootstrap.png")} alt="" />
+          <img className="icon" src={require("./images/firebase.png")} alt="" />
 
         </div>
 
